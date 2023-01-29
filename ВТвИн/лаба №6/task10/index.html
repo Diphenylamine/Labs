@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Задание 10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="ship">
+            <div id="ship-next">
+                <div id="ship-next-inner">
+                     <div id="parys-1"></div>
+                     <div id="pilla"></div>
+                     <div id="parys-2"></div>
+                </div>
+            </div>
+            <button id="button">EEEE</button>
+        </div>
+    </div>
+    <script>
+        let button = document.getElementById('button')
+        let ship_up = document.getElementById('ship-next-inner')
+        let parys1 = document.getElementById('parys-1')
+        let parys2 = document.getElementById('parys-2')
+        let ship = document.getElementById('ship')
+        button.addEventListener('click', an)
+
+        function an(){
+            button.classList.add('button-anim')
+            ship.classList.add('ship_anim')
+            button.style.width= "240px"
+            ship_up.classList.add('ship-next-inner')
+            parys1.classList.add('parys1-anim')
+            parys2.classList.add('parys2-anim')
+    
+        }
+    </script>
+</body>
+</html>

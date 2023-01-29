@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    //ЧАСТЬ 1
+    let time = prompt('time');
+    let message = (time < 0) ? 'Error':
+    (time < 1) ? '4':
+    (time <16 ) ? '1':
+    (time < 46) ? '3':
+    (time <60 ) ? '4':
+    'error';
+    alert(message);
+
+
+    // ЧАСТЬ 2
+    let week;
+    let len;
+    let lang = prompt('write lang');
+    switch (lang) {
+      case 'ru':
+          week = [ 'понедельник', 'вторник', 'среда', 'четверг', 'птница', 'суббота', 'воскресенье'];
+           break;
+           case 'by':
+                week = [ 'Понедельник на беларуском', 'Вторник на беларуском ', 'Серада  на беларуском', 'Четверг  на беларуском', 'Пятница на беларуском', 'Субота на беларуском', 'Воскресенье на беларуском'];
+             break;
+        default:
+        alert('error');
+    }
+    len = week.length;
+    for (let i = 0; i < len; i++) {
+      alert(week[i]);
+    }
+    </script>
+  </body>
+</html>

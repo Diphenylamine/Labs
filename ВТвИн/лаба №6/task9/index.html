@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <img src="img/bg.jpg" alt="">
+   <img  class="plan1" src="img/planet-1.png" alt="">
+   <img  class="plan2" src="img/planet-2.png" alt="">
+   <img class="plan3" src="img/planet-3.png" alt="">
+   <img class="space" id="sp" src="img/spaceship.png" alt="">
+   <img class="ufo" id="uf" src="img/ufo.png" alt="">
+   <img  class="aster" id="as" src="img/asteroid.png" alt="">   
+   <button onclick="an()" class="button">Spped BUst
+
+   </button>
+   <script>
+    function an() {
+        setTimeout (  () => {
+        let space = document.getElementById('sp')
+        let ufo = document.getElementById('uf')
+        let aster = document.getElementById('as')
+        let spaceshipImg = space.src
+        space.src = ufo.src
+        ufo.src = aster.src
+        aster.src = spaceshipImg
+        an()
+    }, 60 )
+    }
+     
+   </script>
+</body>     
+
+</html>

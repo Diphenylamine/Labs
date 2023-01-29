@@ -1,0 +1,31 @@
+body{
+    margin: 10%;
+    padding: 0%;
+}
+
+a{
+    text-decoration: none;
+    color: #0b56ea;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+span{
+    color: #333;
+    margin-left: 3px;
+}
+
+.list{
+    display: flex;
+    flex-flow: row;
+}
+
+a:after{
+ content: " > "; 
+ color: #333;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: #0b56ea;
+}

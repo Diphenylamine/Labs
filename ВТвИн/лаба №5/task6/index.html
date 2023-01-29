@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>task6.1</title>
+</head>
+
+<body>
+    <script>
+    // 1
+        function cube(num) {
+            return num * num;
+        }
+        alert(cube(prompt('Введите число')));
+
+        // 3
+        function sum(num1, num2, num3) {
+            return (Number(num1) - Number(num2)) / num3;
+        }
+        alert(
+            sum(
+                prompt('Введите первое число'),
+                prompt('Введите второе число'),
+                prompt('Введите третье число')
+            )
+        );
+        // 4
+        week = [' Понедельник', ' Вторник', ' Среда', ' Четверг', ' Пятница', ' Суббота', ' Воскресенье'];
+        function day_of_week(num) {
+            return week[Number(num) - 1]
+        }
+        alert(day_of_week(prompt('Введите число')));
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+table{
+  border-collapse: e;
+  border: 1px solid #ccc;
+  width: 500px;
+}
+
+
+th, td{
+  border: 1px solid #ccc;
+  padding: 5px;
+  padding: 10px;
+}
+
+
+thead{
+  background-color: #f0f1f4;
+}
+
+tfoot{
+  background-color: #121212;
+  color: #fff;
+  text-align: right;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+<h4>Не кликай</h4>
+<progress value="0" max="100" id="progress" >sdfsd</progress> <span id="precent">0</span> <span id="after"> % </span>
+</div>
+<br>
+<button id="button" onclick="NO()" >Не смей делать это</button>
+<script>
+    let precent = document.getElementById("precent")
+    i =0;
+    h =5 
+    function NO(){
+    i += h
+    let progress = document.getElementById("progress")
+    document.getElementById("precent").innerHTML = +i
+        progress.value += 5
+        if( progress.value == 100) {
+            let after = document.getElementById("after").textContent = "ТЫ всётаки сделал это" 
+        }
+        if ( progress.value == 95) {
+            document.getElementById('button').addEventListener('click', Element => Element.target.style.display = 'none');
+        }
+        
+   }
+   
+
+   
+</script>
+</body>
+</html>

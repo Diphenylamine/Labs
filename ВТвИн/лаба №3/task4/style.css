@@ -1,0 +1,46 @@
+body{
+  margin-left: 0px;
+}
+
+
+/* Голова */
+.floor1{
+  top: 0;
+  display: flex;
+  position: fixed;
+
+  border-bottom: 1.5px solid 	#BDB76B;
+
+
+  background-color: #9999cc;
+
+  height: 70px;
+  width: 100%;
+  font-size: 15px;
+  color: 	#F8F8FF;
+  justify-content: center;;
+}
+
+
+/* Тело */
+
+
+.floor2{
+  box-sizing: border-box;
+  margin-top:100px ;
+  margin-bottom: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  border: 2px solid 	#9999cc;
+
+  padding: 30px ;
+  padding: 20px;
+}
+
+
+.flor{
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}

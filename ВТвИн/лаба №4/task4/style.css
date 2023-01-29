@@ -1,0 +1,36 @@
+header{
+    color: #222;
+    border: 2px solid #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+header:hover{
+    color: #222;
+    border: 2px solid #333;
+    width: 50% ;
+    height: 100%;
+    white-space: inherit;
+    overflow: visible;
+}
+
+nav{
+    color: #222;
+    border: 2px solid #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 50%;
+}
+
+nav:hover{
+    color: #222;
+    border: 2px solid #333;
+    width: 50%;
+    height: 100%;
+    white-space: inherit;
+    overflow: visible;
+}

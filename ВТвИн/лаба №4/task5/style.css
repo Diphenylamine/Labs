@@ -1,0 +1,128 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: antiquewhite;
+}
+/* task 5 ex 1 */
+.gradient{
+    margin-top: 100px;
+    margin-left: 100px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, 500px);
+    row-gap: 50px;
+    column-gap: 30px;
+}
+
+/* task 5 ex 1 */
+header{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(2, 200px
+    );
+    gap: 20px;
+}
+
+#h_s_1{
+    border: 1px solid #222;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to bottom, #CD5C5C, #800000);
+}
+
+
+#h_s_2{
+    border: 1px solid #222;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to left, #ADFF2F, #008080);
+}
+
+#h_s_3{
+    border: 1px solid #222;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to right, #DCDCDC, #000000);
+}
+
+#h_s_4{
+    border: 1px solid #222;
+    height: 200px;
+    width:300px;
+    background: linear-gradient(  to bottom, #0000FF 33%, #FF00FF 33%, #FF00FF 66%, #0000FF 66%);
+}
+
+#h_s_5{
+    border: 1px solid #222;
+    height: 200px;
+    width: 300px;
+    margin-left: 120px;
+    background: linear-gradient(to right, #D3D3D3 , #808080 25%, #778899 50%, #2F4F4F 75%);
+}
+
+/* task 5 ex 2 */
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200);
+    gap: 20px;
+}
+
+#m_s_1{
+    border: 1px solid #222;
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(circle at 50%, #0000CD, #E0FFFF);
+}
+
+#m_s_2{
+    border: 1px solid #222;
+    height: 200px;
+    width: 400px;
+    background: radial-gradient(at 50%, #DDA0DD, #4B0082);
+}
+
+#m_s_3{
+    border: 1px solid #222;
+    height: 200px;
+    width: 400px;
+    background: radial-gradient(circle closest-side at 7% 20% , #ADFF2F, #008080);
+}
+
+#m_s_4 {
+    border: 1px solid #222;
+    height: 200px;
+    width: 400px;
+    background: radial-gradient(circle closest-side at 50% 50%, #00FFFF 20%, #4682B4 20%, #4682B4 40%, #191970 40% );
+    margin-left: 220px;
+}
+
+/* task 5 ex 3 */
+footer{
+    display: grid;
+    grid-template-rows: 100px 50px 200px;
+    gap: 20px;
+}
+
+#f_s_1{
+    width: 200px;
+    height: 100px;
+    border: 1px  solid #222;
+    background: repeating-linear-gradient( transparent, #8B0000, #8B0000 10px, #FFFAFA 10px, #FFFAFA 12px);
+}
+
+#f_s_2{
+    width:200px;
+    height: 50px;
+    border: 1px solid #222;
+    background: repeating-linear-gradient(45deg, transparent, #00FFFF, #00FFFF 10px, #191970 7px, #191970 12px);
+}
+
+#f_s_3{
+    width: 200px;
+    height: 200pz;
+    border: 1px solid #222;
+    background: repeating-radial-gradient(circle at 50% 50%, #000000, #000000 10%, #DCDCDC 10%, #DCDCDC 20%);
+}

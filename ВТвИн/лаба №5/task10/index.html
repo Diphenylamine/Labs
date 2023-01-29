@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    let result = +prompt('Ваша зп');
+    let x = result / 100 * 15;
+    result += x;
+    alert(`с премией ${result}`);
+    let y = result * 0.1;
+    result -=y;
+    alert (`после налогов ${result}`);
+    let z = prompt('на поход в магазин');
+    result -= z;
+    alert (`после магазина ${result}`);
+    result /=2;
+    alert('Делетесь со мной');
+    alert(`у вас осталось ${result}`);
+    </script>
+  </body>
+</html>

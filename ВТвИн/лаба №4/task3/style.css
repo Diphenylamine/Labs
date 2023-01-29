@@ -1,0 +1,27 @@
+header, nav, main, footer{
+    font-size: 50px;
+}
+
+header {
+    text-decoration: wavy;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+}
+
+nav{
+    text-decoration:dotted;
+    text-decoration-line:underline;
+    text-decoration-color:pink ;
+}
+
+main{
+    text-decoration:dashed;
+    text-decoration-line:underline;
+    text-decoration-color:green;
+}
+
+footer{
+    text-decoration: double;
+    text-decoration-line: underline;
+    text-decoration-color: red ;
+}

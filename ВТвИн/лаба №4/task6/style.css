@@ -1,0 +1,36 @@
+
+.txt{
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: repeat(6, 50px);
+}
+
+.text_item_1{
+    color: #222;
+   text-shadow: 10px 10px #9237fe;
+}
+
+.text_item_2 {
+    color: #222;
+    text-shadow: 10px 10px 3px #0000FF;
+}
+
+.text_item_3 {
+    color: #222;
+    text-shadow: 10px 10px #0000FF, -10px -10px #9237fe;
+}
+
+.text_item_4 {
+    color: rgb(128, 128, 128);
+    text-shadow: 0 -0.3px rgb(100, 100, 100), 0 0.3px rgb(156, 156, 156);
+}
+
+.text_item_5{
+    color: #000;
+    text-shadow: -.1px 0.1px  #333, -.2px 0.2px  #444, -.3px .3px  #555, -.4px 0.4px #666, -.5px 0.5px  #777, -.6px .6px  #888, -.7px 0.7px #888, -.8px .8px #777, -.9px .9px #666, -1.1px 1.1px #555, -1.2px 1.2px #444, -1.3px 1.3px #333;
+}
+
+.text_item_6 {
+    color: #222;
+    text-shadow: -1px 0 1px #9237fe, 0 -1px 1px #9237fe, 1px 0 1px #9237fe, 0 1px 1px #9237fe;
+}

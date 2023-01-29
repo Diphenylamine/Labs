@@ -1,0 +1,33 @@
+body{
+    background-color:  #f8f8f8
+}
+
+
+.tab{
+  
+  display: grid;
+  grid-column;
+  grid-row-gap: 15px;
+
+  margin: 10px;
+  width: 320px;
+}
+
+
+.inp{
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+a{
+  text-decoration: none;
+  background-color: #1cbc11;
+  border: 1px;
+  padding: 14px;
+  color: #fff;
+  text-align: center;
+}
+
+a:hover{
+  background-color: #14a20a;
+}

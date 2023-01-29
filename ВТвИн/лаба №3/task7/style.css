@@ -1,0 +1,59 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+a{
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+
+.nav_burg{
+    display: inline-block;
+    text-decoration: none;
+    color: #2d2d2d;
+    width: 100px;
+    height: 100px;
+    border-color: #555;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{}
+
+a:hover{
+    background-color: #444;
+    color: lightsteelblue ;
+}
+
+.dws_list{
+    flex-flow: column;
+    position: relative;
+}
+
+.list_item{
+    margin-left: -40px;
+    width: 200px;
+    border: none;
+    display: none;
+}
+
+.dws{
+  width: 100px;
+  height: 100px
+    position: relative;
+}
+
+.dws:hover .list_item{
+    display:block ;
+}

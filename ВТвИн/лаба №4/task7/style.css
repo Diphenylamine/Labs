@@ -1,0 +1,28 @@
+.s_box{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: repeat(3, 200px);
+    gap: 70px;
+}
+
+header{
+    border: 2px solid #111  ;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px #555;
+}
+
+main{
+    border: 2px solid #111;
+    width: 200px;
+    height: 200px;
+    box-shadow: -30px -30px 10px #777;
+}
+
+footer{
+    border: 2px solid #111;
+    width: 200px;
+    height: 200px;
+    box-shadow: inset 5px 5px 5px #777, inset -5px -5px 5px #777
+}

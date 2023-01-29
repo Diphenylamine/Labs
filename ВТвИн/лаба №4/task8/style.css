@@ -1,0 +1,17 @@
+button{
+    margin-right: 1em;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20%;
+    background-color: #999;
+    padding: 1%;
+    box-shadow: 0.1em 0.1em #888, 0.2em 0.2em #777, 0.3em .3em #666, .4em .4em #555, .5em .5em #444, .6em .6em #555, .7em .7em #666, .8em .8em #777, .9em .9em #888, 1em 1em #999 ;
+}
+
+#small{
+    font-size: 0.3em;
+}
+
+#large{
+    font-size: 2em;
+}

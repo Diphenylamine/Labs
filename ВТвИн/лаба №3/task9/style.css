@@ -1,0 +1,129 @@
+body{
+    margin: 0%;
+    padding: 0;
+    background-color: #dddddd;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #03786f ;
+    text-align: center;
+    height:  40px;
+    width: 130px;
+    padding-top: 15px;
+}
+
+a:hover{
+    background-color: #444;
+}
+
+/* Hedder */
+.nav_list{
+    box-sizing: border-box;
+    height: auto;
+    background-color: #03786f;
+    display: grid;
+    grid-template-columns: 100px 130px 130px 130px 130px;
+
+}
+
+#first_alement{
+    background-color: #444;
+    width: 100px;
+    text-align: center;
+}
+
+/* тело */
+.body_list{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: grid;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px ;
+    gap: 45px;
+    grid-template-columns: 300px 750px 300px ;
+    justify-content: center;
+}
+
+#cool_img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 750px;  
+}
+
+#top_img{
+    width: 750px;
+    margin-bottom: 10px;
+}
+
+#best_img{
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}   
+
+#next_img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+#lol_img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+/* подвал */
+footer{
+    box-sizing: border-box;
+    background-color: #03786f;
+
+
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    gap: 30px;
+    margin-left: 0  ;
+    padding-left:0;
+    justify-content: center;
+    }
+
+li{
+    background-color: #dddddd;
+    list-style-type: none;
+    padding: 3px;
+    border-top: 20px solid #03786f;
+    border-bottom: 50px solid #03786f;
+    margin-bottom: 30px;
+}
+
+h4{ 
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: -15px;
+}
+
+footer ul li p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.shadow_p{
+    box-shadow: 0 3px 3px #777;
+}
+
+#last_text
+ {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+}

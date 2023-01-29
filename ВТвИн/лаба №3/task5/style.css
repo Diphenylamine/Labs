@@ -1,0 +1,32 @@
+a{
+  text-decoration: none;
+  border:  #ddd;
+  width: 40px;
+  height: 40px;
+  margin-left: 6px;
+
+  background-color: #ddd;
+  color: #333;
+  text-align: center;
+
+  margin-left: 6px;
+
+}
+
+.but{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 40px;
+
+}
+
+a:hover{
+  background-color: #ccc;
+}
+
+#one{
+  border: #d10953;
+  background-color: #d10953;
+  color: #fff;
+}
